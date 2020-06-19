@@ -9,3 +9,5 @@ git log
 git status 
 git diff 
 git add . o "nombre archivo "
+git commit -am "comentario"----> Para archivos que ya he agregado anterior mente
+git log --stat ---> Para ver el detalle de lo que se Cambio en especifico
