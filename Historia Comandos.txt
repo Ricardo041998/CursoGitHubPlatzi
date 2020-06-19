@@ -1,0 +1,11 @@
+Este es mi primer commit en GitHub y tengo 22 años 
+
+Comandos Trabajados 
+
+git init 
+git show 
+git commit -m "Comentario"
+git log
+git status 
+git diff 
+git add . o "nombre archivo "
