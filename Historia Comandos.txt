@@ -10,4 +10,9 @@ git status
 git diff 
 git add . o "nombre archivo "
 git commit -am "comentario"----> Para archivos que ya he agregado anterior mente
+<<<<<<< HEAD
 git log --stat ---> Para ver el detalle de lo que se Cambio en especifico
+=======
+git log --stat ---> Para ver el detalle de lo que se Cambio en especifico
+git branch "nombre rama"
+>>>>>>> cabecera
