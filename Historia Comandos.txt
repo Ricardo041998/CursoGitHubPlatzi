@@ -28,5 +28,12 @@ git push origin master (Para enviar al repositorio anterior mente agregado)
 git pull origin master (Para traer primero el reposiorio remoto y poder unir el local
 git pull origin master  --allow-unrelated-histories (Para forzar la union de las ramas )
 
+-------------------
+ssh-keygen -t rsa -b 4096 -C "sanchezduvan041998@gmail.com" crea la llave y la complejidad 
+eval $(ssh-agent -s) (Evalua que el agente este hailitado )
+ssh-add ~/.ssh/id_rsa (agrega la llave creada privada al entorno )
+
+git remote set-url origin git@github.com:Ricardo041998/CursoGitHubPlatzi.git "llave ssh del repositorio" (Para cambia al modo de conexión ssh)
+
 
 
