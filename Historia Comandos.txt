@@ -43,6 +43,10 @@ git push origin --tags (Para enviar los tags )
 git tag -d "nombre de tag" para borrar
 git push origin :refs/tags/v0.1 ("Para borrar la referencia tambien en la web ")
 
+----------------Comandos adicionales para rams-----
+git show-branch --all
+gitk (Abre un apicativo para ver los cambios de manera grafica)
+
 
 
 
