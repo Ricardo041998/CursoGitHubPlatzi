@@ -2,6 +2,8 @@ Este es mi primer commit en GitHub y tengo 22 años
 
 Comandos Trabajados 
 
+git config -l (Para ver la configuración de git hub)
+git config --global user.email "correo"(para definir el correo)
 git init 
 git show 
 git commit -m "Comentario"
