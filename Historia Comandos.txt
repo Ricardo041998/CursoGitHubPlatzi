@@ -34,6 +34,15 @@ eval $(ssh-agent -s) (Evalua que el agente este hailitado )
 ssh-add ~/.ssh/id_rsa (agrega la llave creada privada al entorno )
 
 git remote set-url origin git@github.com:Ricardo041998/CursoGitHubPlatzi.git "llave ssh del repositorio" (Para cambia al modo de conexión ssh)
+alias  arbolito ="git log --all --graph --decorate --oneline" (Crea un alias aun comando para hacer las cosas mas facil en la consola )
+git log --all --graph --decorate --oneline (Detalla de forma organizada todo el historial de los commits)
+git tag -a v0.2 -m "Resultado de la s mprimeras clases del curso" 909d3d7 Forma de agrgar tags
+git tag 
+git show-ref --tags (Para ver el detalle de tags)
+git push origin --tags (Para enviar los tags )
+git tag -d "nombre de tag" para borrar
+git push origin :refs/tags/v0.1 ("Para borrar la referencia tambien en la web ")
+
 
 
 
