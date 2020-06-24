@@ -16,3 +16,15 @@ git log --stat ---> Para ver el detalle de lo que se Cambio en especifico
 git log --stat ---> Para ver el detalle de lo que se Cambio en especifico
 git branch "nombre rama"
 >>>>>>> cabecera
+
+git hub merge "Nombre de Rama " tener en cuenta la direccion en que se hace 
+
+git remote add origin https://github.com/Ricardo041998/CursoGitHubPlatzi.git
+git remote 
+git remote -v (Para ver el detalle verbal )
+git push origin master (Para enviar al repositorio anterior mente agregado)
+git pull origin master (Para traer primero el reposiorio remoto y poder unir el local
+git pull origin master  --allow-unrelated-histories (Para forzar la union de las ramas )
+
+
+
