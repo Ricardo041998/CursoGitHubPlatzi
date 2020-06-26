@@ -48,5 +48,7 @@ git show-branch --all
 gitk (Abre un apicativo para ver los cambios de manera grafica)
 
 
-
+git shortlog -sn --all (ver commits hechos por los miembros del equipo)
+git config --global alias.stas "git shortlog -sn --all" (crea ese comando en la palabra para facilitar el trabajao)
+git blame "+archivo" (ver detalles de modificacione )
 
